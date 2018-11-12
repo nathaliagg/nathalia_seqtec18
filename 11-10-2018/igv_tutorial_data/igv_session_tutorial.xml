@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg19" hasGeneTrack="true" hasSequenceTrack="true" locus="chr21:19089694-19095362" path="/Users/seqtec/Desktop/nathalia_seqtec18/igv_tutorial_data/igv_session_tutorial.xml" version="8">
+    <Resources>
+        <Resource hyperlink="http://www.gencodegenes.org/" name="Gencode Genes (v16)" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v16.annotation.sorted.gtf.gz" trackLine="visibilitywindow:10000000"/>
+        <Resource name="Other" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/variations/Other.rmask.gz"/>
+        <Resource hyperlink="http://www.gencodegenes.org/" name="Gencode Genes (v18)" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v18.annotation.sorted.gtf.gz" trackLine="visibilitywindow:10000000"/>
+        <Resource featureURL="http://genome.ucsc.edu/cgi-bin/hgc?g=dgv&amp;i=$$" hyperlink="http://projects.tcag.ca/variation/" name="Genomic Structural Variation (DGV)" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/variations/dgv.bed.gz"/>
+        <Resource name="Unknown" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/variations/Unknown.rmask.gz"/>
+        <Resource hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=cpgIslandExt" name="CpG Islands" path="http://www.broadinstitute.org/igvdata/annotations/hg19/cpgIslands.hg19.bed"/>
+        <Resource hyperlink="http://www.gencodegenes.org/" name="Gencode Genes (UCSC v10)" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v10.annotation.ucscgene.gz"/>
+        <Resource hyperlink="http://www.gencodegenes.org/" name="Gencode Genes (v15)" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v15.annotation.sorted.gtf.gz" trackLine="visibilitywindow:10000000"/>
+        <Resource path="/Users/seqtec/Desktop/nathalia_seqtec18/igv_tutorial_data/HCC1143.normal.21.19M-20M.bam"/>
+        <Resource name="MGC Genes" path="http://www.broadinstitute.org/igvdata/annotations/hg19/MGCGenes.bed"/>
+        <Resource hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=knownGene" name="UCSC Genes" path="http://www.broadinstitute.org/igvdata/annotations/hg19/UCSCGenes.ucscGene"/>
+        <Resource hyperlink="http://www.gencodegenes.org/" name="Gencode Genes (v17)" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v17.annotation.sorted.gtf.gz" trackLine="visibilitywindow:10000000"/>
+        <Resource name="RNA" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/variations/RNA.rmask.gz"/>
+        <Resource name="GC Percentage" path="http://www.broadinstitute.org/igvdata/annotations/hg19/hg19.gc5base.tdf"/>
+        <Resource featureURL="https://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=$$" name="dbSNP 1.4.7" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/snp147.hg19.ucscsnp.gz"/>
+        <Resource name="RC" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/variations/RC.rmask.gz"/>
+        <Resource name="Ensembl Genes" path="https://s3.amazonaws.com/igv.org.genomes/hg19/ensGene.txt.gz"/>
+        <Resource hyperlink="http://www.gencodegenes.org/" name="Gencode Genes (v14)" path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v14.annotation.sorted.gtf.gz" trackLine="visibilitywindow:10000000"/>
+    </Resources>
+    <Panel height="200" name="DataPanel" width="1422">
+        <Track autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="http://www.broadinstitute.org/igvdata/annotations/hg19/hg19.gc5base.tdf" name="GC Percentage" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="80.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="2147483647" fontSize="10" height="15" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/variations/RC.rmask.gz" name="RC" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="2147483647" fontSize="10" height="15" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/variations/RNA.rmask.gz" name="RNA" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="2147483647" fontSize="10" height="15" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/variations/Other.rmask.gz" name="Other" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="1060220671" fontSize="10" height="15" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/variations/Unknown.rmask.gz" name="Unknown" visible="true"/>
+    </Panel>
+    <Panel height="4376" name="Panel1541876673138" width="1422">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;85.0;255,255,255;175,175,175" fontSize="10" id="/Users/seqtec/Desktop/nathalia_seqtec18/igv_tutorial_data/HCC1143.normal.21.19M-20M.bam_coverage" name="HCC1143.normal.21.19M-20M.bam Coverage" snpThreshold="0.2" visible="true" windowFunction="null">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="280.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="/Users/seqtec/Desktop/nathalia_seqtec18/igv_tutorial_data/HCC1143.normal.21.19M-20M.bam_junctions" name="HCC1143.normal.21.19M-20M.bam Junctions" visible="false"/>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="/Users/seqtec/Desktop/nathalia_seqtec18/igv_tutorial_data/HCC1143.normal.21.19M-20M.bam" name="HCC1143.normal.21.19M-20M.bam" visible="true">
+            <RenderOptions colorOption="UNEXPECTED_PAIR" groupByOption="PAIR_ORIENTATION" shadeBasesOption="NONE" showAllBases="false" showMismatches="true" viewPairs="true"/>
+        </Track>
+    </Panel>
+    <Panel height="520" name="FeaturePanel" width="1422">
+        <Track clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;423.0;255,255,255;0,0,178" fontSize="10" height="35" id="hg19_genes" name="RefSeq Genes" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="http://www.broadinstitute.org/igvdata/annotations/hg19/cpgIslands.hg19.bed" name="CpG Islands" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="18027161" fontSize="10" id="https://s3.amazonaws.com/igv.org.genomes/hg19/ensGene.txt.gz" name="Ensembl Genes" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="http://www.broadinstitute.org/igvdata/annotations/hg19/UCSCGenes.ucscGene" name="UCSC Genes" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="http://www.broadinstitute.org/igvdata/annotations/hg19/MGCGenes.bed" name="MGC Genes" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v10.annotation.ucscgene.gz" name="Gencode Genes (UCSC v10)" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="1000000" fontSize="10" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v14.annotation.sorted.gtf.gz" name="Gencode Genes (v14)" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="1000000" fontSize="10" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v15.annotation.sorted.gtf.gz" name="Gencode Genes (v15)" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="1000000" fontSize="10" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v16.annotation.sorted.gtf.gz" name="Gencode Genes (v16)" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="1000000" fontSize="10" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v17.annotation.sorted.gtf.gz" name="Gencode Genes (v17)" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="1000000" fontSize="10" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/gencode.v18.annotation.sorted.gtf.gz" name="Gencode Genes (v18)" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" featureVisibilityWindow="1000000" fontSize="10" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/snp147.hg19.ucscsnp.gz" name="dbSNP 1.4.7" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg19/variations/dgv.bed.gz" name="Genomic Structural Variation (DGV)" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.11124401913875598,0.7691387559808612"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
