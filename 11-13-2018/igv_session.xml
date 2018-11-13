@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" hasGeneTrack="true" hasSequenceTrack="true" locus="chr22:38481328-38489178" path="/Users/seqtec/Desktop/nathalia_seqtec18/11-13-2018/igv_session.xml" version="8">
+    <Resources>
+        <Resource path="http://ec2-54-184-243-221.us-west-2.compute.amazonaws.com/workspace/rnaseq/alignments/hisat2/HBR.bam"/>
+        <Resource path="http://ec2-54-184-243-221.us-west-2.compute.amazonaws.com/workspace/rnaseq/alignments/hisat2/UHR.bam"/>
+    </Resources>
+    <Panel height="509" name="Panel1542126866465" width="1801">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;406.0;255,255,255;175,175,175" fontSize="10" height="40" id="http://ec2-54-184-243-221.us-west-2.compute.amazonaws.com/workspace/rnaseq/alignments/hisat2/UHR.bam_coverage" name="UHR.bam Coverage" snpThreshold="0.2" visible="true" windowFunction="null">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="452.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="SQUISHED" experimentType="RNA" fontSize="10" height="87" id="http://ec2-54-184-243-221.us-west-2.compute.amazonaws.com/workspace/rnaseq/alignments/hisat2/UHR.bam" name="UHR.bam" visible="true">
+            <RenderOptions colorOption="READ_GROUP" groupByOption="NONE" linkedReads="false"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="http://ec2-54-184-243-221.us-west-2.compute.amazonaws.com/workspace/rnaseq/alignments/hisat2/HBR.bam_junctions" name="HBR.bam Junctions" visible="false"/>
+    </Panel>
+    <Panel height="428" name="Panel1542127923215" width="1801">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;273.0;255,255,255;175,175,175" fontSize="10" id="http://ec2-54-184-243-221.us-west-2.compute.amazonaws.com/workspace/rnaseq/alignments/hisat2/HBR.bam_coverage" name="HBR.bam Coverage" snpThreshold="0.2" visible="true" windowFunction="null">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="273.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="http://ec2-54-184-243-221.us-west-2.compute.amazonaws.com/workspace/rnaseq/alignments/hisat2/HBR.bam_junctions" name="HBR.bam Junctions" visible="false"/>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="SQUISHED" experimentType="OTHER" fontSize="10" id="http://ec2-54-184-243-221.us-west-2.compute.amazonaws.com/workspace/rnaseq/alignments/hisat2/HBR.bam" name="HBR.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="41" name="FeaturePanel" width="1801">
+        <Track clazz="org.broad.igv.track.SequenceTrack" fontSize="10" height="37" id="Reference sequence" name="Reference sequence" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;402.0;255,255,255;0,0,178" fontSize="10" height="38" id="hg38_genes" name="Gene" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.007194244604316547,0.5023980815347722,0.9448441247002398"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
