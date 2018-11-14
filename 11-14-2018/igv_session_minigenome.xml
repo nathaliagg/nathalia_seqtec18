@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/minigenome.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="minigenome:703208-768157" nextAutoscaleGroup="4" path="/Users/seqtec/Desktop/nathalia_seqtec18/11-14-2018/igv_session_minigenome.xml" version="8">
+    <Resources>
+        <Resource path="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/stringtie.final.GTF"/>
+        <Resource path="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/Trinity.gmap.bam"/>
+        <Resource path="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/sB_rep1.cSorted.hisat2.minigenome.fa.bam"/>
+        <Resource path="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/sA_rep1.cSorted.hisat2.minigenome.fa.bam"/>
+        <Resource path="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/minigenome.gtf"/>
+    </Resources>
+    <Panel height="1542" name="Panel1542210165807" width="2031">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;30.0;255,255,255;175,175,175" fontSize="10" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/sA_rep1.cSorted.hisat2.minigenome.fa.bam_coverage" name="sA_rep1.cSorted.hisat2.minigenome.fa.bam Coverage" snpThreshold="0.2" visible="true" windowFunction="null">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="57.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/sA_rep1.cSorted.hisat2.minigenome.fa.bam_junctions" name="sA_rep1.cSorted.hisat2.minigenome.fa.bam Junctions" visible="false"/>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/sA_rep1.cSorted.hisat2.minigenome.fa.bam" name="sA_rep1.cSorted.hisat2.minigenome.fa.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="1178" name="Panel1542210183244" width="2031">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;29.0;255,255,255;175,175,175" fontSize="10" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/sB_rep1.cSorted.hisat2.minigenome.fa.bam_coverage" name="sB_rep1.cSorted.hisat2.minigenome.fa.bam Coverage" snpThreshold="0.2" visible="true" windowFunction="null">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="59.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/sB_rep1.cSorted.hisat2.minigenome.fa.bam_junctions" name="sB_rep1.cSorted.hisat2.minigenome.fa.bam Junctions" visible="false"/>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/sB_rep1.cSorted.hisat2.minigenome.fa.bam" name="sB_rep1.cSorted.hisat2.minigenome.fa.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="166" name="Panel1542211154370" width="2031">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" fontSize="10" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/Trinity.gmap.bam_coverage" name="Trinity.gmap.bam Coverage" snpThreshold="0.2" visible="true" windowFunction="null">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/Trinity.gmap.bam_junctions" name="Trinity.gmap.bam Junctions" visible="false"/>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/Trinity.gmap.bam" name="Trinity.gmap.bam" visible="true">
+            <RenderOptions colorOption="READ_STRAND"/>
+        </Track>
+    </Panel>
+    <Panel height="81" name="FeaturePanel" width="2031">
+        <Track clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="255,102,51" fontSize="10" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/stringtie.final.GTF" name="stringtie.final.GTF" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="http://ec2-34-221-102-104.us-west-2.compute.amazonaws.com/workspace/transreco/minigenome.gtf" name="minigenome.gtf" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.007177033492822967,0.35287081339712917,0.6925837320574163,0.8971291866028708"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
